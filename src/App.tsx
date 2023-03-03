@@ -6,6 +6,7 @@ import { Partners } from './components/Partners';
 import { SeeAll } from './components/SeeAll';
 import { Products } from './components/Products';
 import { Brand } from './components/Brand';
+import { Footer } from './components/Footer';
 
 import '../src/styles/css/global.css';
 
@@ -20,6 +21,8 @@ function App() {
       <SeeAll />
       <Products />
       <Brand />
+      <SeeAll />
+      <Footer />
     </main>
   );
 }

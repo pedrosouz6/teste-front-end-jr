@@ -1,17 +1,74 @@
 :export {
   gray: rgb(159, 159, 159);
   white: white;
+  black: rgb(42, 42, 42);
   primaryColor: rgb(247, 25, 99);
   borderColor: rgb(240, 240, 240);
   inputColor: rgb(246, 245, 242);
 }
 
 #brand {
-  margin-top: 115px;
+  margin-top: 155px;
+  width: 100%;
+  position: relative;
 }
 #brand h2 {
-  text-align: center;
+  font-weight: 700;
   color: rgb(247, 25, 99);
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+#brand .slide-cards-buttons-brand button {
+  background: white;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#brand .slide-cards-buttons-brand button img {
+  width: 12px;
+  height: 20px;
+}
+#brand .slide-cards-buttons-brand .left {
+  left: 50px;
+}
+#brand .slide-cards-buttons-brand .right {
+  right: 50px;
+}
+#brand .container-slide-brand {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+#brand .container-slide-cards-brand {
+  display: flex;
+  position: relative;
+  gap: 40px;
+  padding: 5px;
+  transition: 0.3s ease-in-out;
+}
+#brand .container-slide-cards-brand article {
+  width: 211px;
+  height: 211px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#brand .container-slide-cards-brand article img {
+  width: 172px;
+  height: 62px;
 }
 
 /*# sourceMappingURL=brand.css.map */

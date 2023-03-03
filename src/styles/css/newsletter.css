@@ -1,0 +1,50 @@
+:export {
+  gray: rgb(159, 159, 159);
+  white: white;
+  black: rgb(42, 42, 42);
+  primaryColor: rgb(247, 25, 99);
+  borderColor: rgb(240, 240, 240);
+  inputColor: rgb(246, 245, 242);
+}
+
+#newsletter {
+  width: 380px;
+  height: 260px;
+  border-radius: 10px;
+  padding: 35px;
+  background-color: white;
+}
+#newsletter h6 {
+  font-size: 21px;
+  text-transform: uppercase;
+  line-height: 23px;
+}
+#newsletter h6 span {
+  font-size: 18px;
+  display: block;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+#newsletter p {
+  margin: 15px 0 31px 0;
+  text-align: center;
+  font-size: 12px;
+}
+#newsletter form input {
+  border: 1px solid rgb(42, 42, 42);
+  border-radius: 4px;
+  height: 45px;
+  width: 230px;
+  padding: 0 25px;
+}
+#newsletter form button {
+  background-color: rgb(247, 25, 99);
+  color: white;
+  height: 45px;
+  width: 62px;
+  border: none;
+  border-radius: 4px;
+  margin-left: 9px;
+}
+
+/*# sourceMappingURL=newsletter.css.map */

@@ -1,0 +1,98 @@
+@import './varibles.scss';
+
+footer {
+    margin-top: 169px;
+    background-color: #2A2A2A;
+    height: 325px;
+
+    li {
+        color: white;
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    h5 {
+        margin-bottom: 29px;
+        color: white;
+        font-size: 13px;
+    }
+
+    .container-footer {
+        width: 100%;
+        height: 325px;  
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #content-info {
+        display: flex;
+        gap: 80px;
+    }
+
+    .about-us {
+        nav {
+            display: flex;
+            flex-direction: column;
+            gap: 60px;
+        }
+
+        #items {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        #social-media {
+            display: flex;
+            gap: 36px;
+        }
+    }
+
+    .useful-information {
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+    }
+
+    .payment-methods {
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            width: 240px;
+            gap: 10px;
+        }
+
+        li {
+            width: 67px;
+        }
+    }
+
+    .container-footer-bottom {
+        border-top: 1px solid white;
+        background-color: #2A2A2A;
+
+        .container-bottom {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 70px;
+        }
+
+        p {
+            font-size: 10px;
+            color: white;
+            text-transform: uppercase;
+        }
+
+        img {
+            margin-left: 32px;
+        }
+    }
+}

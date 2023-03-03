@@ -3,10 +3,12 @@ $gray: rgba(159, 159, 159, 1);
 $white: white;
 $borderColor: rgba(240, 240, 240, 1);
 $inputColor: rgba(246, 245, 242, 1);
+$black: rgba(42, 42, 42, 1);
 
 :export {
     gray: $gray;
     white: $white;
+    black: $black;
     primaryColor: $primaryColor;
     borderColor: $borderColor;
     inputColor: $inputColor

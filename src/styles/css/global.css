@@ -2,6 +2,7 @@
 :export {
   gray: rgb(159, 159, 159);
   white: white;
+  black: rgb(42, 42, 42);
   primaryColor: rgb(247, 25, 99);
   borderColor: rgb(240, 240, 240);
   inputColor: rgb(246, 245, 242);
@@ -128,6 +129,7 @@ header .container-header-bottom nav ul li button i {
 :export {
   gray: rgb(159, 159, 159);
   white: white;
+  black: rgb(42, 42, 42);
   primaryColor: rgb(247, 25, 99);
   borderColor: rgb(240, 240, 240);
   inputColor: rgb(246, 245, 242);
@@ -186,6 +188,7 @@ header .container-header-bottom nav ul li button i {
 :export {
   gray: rgb(159, 159, 159);
   white: white;
+  black: rgb(42, 42, 42);
   primaryColor: rgb(247, 25, 99);
   borderColor: rgb(240, 240, 240);
   inputColor: rgb(246, 245, 242);
@@ -234,6 +237,7 @@ header .container-header-bottom nav ul li button i {
 :export {
   gray: rgb(159, 159, 159);
   white: white;
+  black: rgb(42, 42, 42);
   primaryColor: rgb(247, 25, 99);
   borderColor: rgb(240, 240, 240);
   inputColor: rgb(246, 245, 242);
@@ -276,6 +280,7 @@ header .container-header-bottom nav ul li button i {
 :export {
   gray: rgb(159, 159, 159);
   white: white;
+  black: rgb(42, 42, 42);
   primaryColor: rgb(247, 25, 99);
   borderColor: rgb(240, 240, 240);
   inputColor: rgb(246, 245, 242);
@@ -312,6 +317,7 @@ header .container-header-bottom nav ul li button i {
 :export {
   gray: rgb(159, 159, 159);
   white: white;
+  black: rgb(42, 42, 42);
   primaryColor: rgb(247, 25, 99);
   borderColor: rgb(240, 240, 240);
   inputColor: rgb(246, 245, 242);
@@ -405,6 +411,7 @@ header .container-header-bottom nav ul li button i {
 :export {
   gray: rgb(159, 159, 159);
   white: white;
+  black: rgb(42, 42, 42);
   primaryColor: rgb(247, 25, 99);
   borderColor: rgb(240, 240, 240);
   inputColor: rgb(246, 245, 242);
@@ -470,6 +477,7 @@ header .container-header-bottom nav ul li button i {
 :export {
   gray: rgb(159, 159, 159);
   white: white;
+  black: rgb(42, 42, 42);
   primaryColor: rgb(247, 25, 99);
   borderColor: rgb(240, 240, 240);
   inputColor: rgb(246, 245, 242);
@@ -524,17 +532,208 @@ header .container-header-bottom nav ul li button i {
 :export {
   gray: rgb(159, 159, 159);
   white: white;
+  black: rgb(42, 42, 42);
   primaryColor: rgb(247, 25, 99);
   borderColor: rgb(240, 240, 240);
   inputColor: rgb(246, 245, 242);
 }
 
 #brand {
-  margin-top: 115px;
+  margin-top: 155px;
+  width: 100%;
+  position: relative;
 }
 #brand h2 {
-  text-align: center;
+  font-weight: 700;
   color: rgb(247, 25, 99);
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+#brand .slide-cards-buttons-brand button {
+  background: white;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#brand .slide-cards-buttons-brand button img {
+  width: 12px;
+  height: 20px;
+}
+#brand .slide-cards-buttons-brand .left {
+  left: 50px;
+}
+#brand .slide-cards-buttons-brand .right {
+  right: 50px;
+}
+#brand .container-slide-brand {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+#brand .container-slide-cards-brand {
+  display: flex;
+  position: relative;
+  gap: 40px;
+  padding: 5px;
+  transition: 0.3s ease-in-out;
+}
+#brand .container-slide-cards-brand article {
+  width: 211px;
+  height: 211px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#brand .container-slide-cards-brand article img {
+  width: 172px;
+  height: 62px;
+}
+
+:export {
+  gray: rgb(159, 159, 159);
+  white: white;
+  black: rgb(42, 42, 42);
+  primaryColor: rgb(247, 25, 99);
+  borderColor: rgb(240, 240, 240);
+  inputColor: rgb(246, 245, 242);
+}
+
+footer {
+  margin-top: 169px;
+  background-color: #2A2A2A;
+  height: 325px;
+}
+footer li {
+  color: white;
+  font-size: 12px;
+  font-weight: 300;
+}
+footer ul {
+  list-style: none;
+}
+footer h5 {
+  margin-bottom: 29px;
+  color: white;
+  font-size: 13px;
+}
+footer .container-footer {
+  width: 100%;
+  height: 325px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer #content-info {
+  display: flex;
+  gap: 80px;
+}
+footer .about-us nav {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+footer .about-us #items {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+footer .about-us #social-media {
+  display: flex;
+  gap: 36px;
+}
+footer .useful-information ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+footer .payment-methods ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 240px;
+  gap: 10px;
+}
+footer .payment-methods li {
+  width: 67px;
+}
+footer .container-footer-bottom {
+  border-top: 1px solid white;
+  background-color: #2A2A2A;
+}
+footer .container-footer-bottom .container-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+}
+footer .container-footer-bottom p {
+  font-size: 10px;
+  color: white;
+  text-transform: uppercase;
+}
+footer .container-footer-bottom img {
+  margin-left: 32px;
+}
+
+:export {
+  gray: rgb(159, 159, 159);
+  white: white;
+  black: rgb(42, 42, 42);
+  primaryColor: rgb(247, 25, 99);
+  borderColor: rgb(240, 240, 240);
+  inputColor: rgb(246, 245, 242);
+}
+
+#newsletter {
+  width: 380px;
+  height: 260px;
+  border-radius: 10px;
+  padding: 35px;
+  background-color: white;
+}
+#newsletter h6 {
+  font-size: 21px;
+  text-transform: uppercase;
+  line-height: 23px;
+}
+#newsletter h6 span {
+  font-size: 18px;
+  display: block;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+#newsletter p {
+  margin: 15px 0 31px 0;
+  text-align: center;
+  font-size: 12px;
+}
+#newsletter form input {
+  border: 1px solid rgb(42, 42, 42);
+  border-radius: 4px;
+  height: 45px;
+  width: 230px;
+  padding: 0 25px;
+}
+#newsletter form button {
+  background-color: rgb(247, 25, 99);
+  color: white;
+  height: 45px;
+  width: 62px;
+  border: none;
+  border-radius: 4px;
+  margin-left: 9px;
 }
 
 * {

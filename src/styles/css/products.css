@@ -1,6 +1,7 @@
 :export {
   gray: rgb(159, 159, 159);
   white: white;
+  black: rgb(42, 42, 42);
   primaryColor: rgb(247, 25, 99);
   borderColor: rgb(240, 240, 240);
   inputColor: rgb(246, 245, 242);

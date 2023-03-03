@@ -5,7 +5,7 @@ export function Brand() {
     const [ countSlide, setCountSlide ] = useState<number>(0);
 
     function NextSlide() {
-        if(countSlide === 10) {
+        if(countSlide === 5) {
             return setCountSlide(0);
         }
 
@@ -22,34 +22,43 @@ export function Brand() {
 
     return (
         <section id="brand">
-            <h2>Navegue por marcas</h2>
-            <div className="slide-cards-buttons">
-                    <button 
-                        className='left'
-                        onClick={() => PrevSlide()}
-                    >
-                        <img src="assets/ArrowLeft.svg" alt="Ícone Esquerda" />
-                    </button>
+            <div className="container-center">
+                <h2>Navegue por marcas</h2>
 
-                    <button 
-                        className='right'
-                        onClick={() => NextSlide()}
-                    >
-                        <img src="assets/ArrowRight.svg" alt="Ícone Direita" />
-                    </button>
-                </div>
+                
+                <div className="container-slide-brand">
+                    <div className="slide-cards-buttons-brand">
+                        { 
+                            countSlide > 0 && 
+                            <button 
+                                className='left'
+                                onClick={() => PrevSlide()}
+                            >
+                                <img src="assets/ArrowLeft.svg" alt="Ícone Esquerda" />
+                            </button>
+                        }
 
-            <div className="container-slide">
-                <div className="container-slide-cards"
-                    style={{
-                        left: `-${countSlide * 330}px`,
-                        width: `calc(330px * 10)`
-                    }}
-                >
-                    {
-                        Array.from(Array(10), (e, i) => {
-                            return <img src="assets/Logo.svg" alt="" />
-                    })}
+                        <button 
+                            className='right'
+                            onClick={() => NextSlide()}
+                        >
+                            <img src="assets/ArrowRightBlue.svg" alt="Ícone Direita" />
+                        </button>
+                    </div>
+                    <div className="container-slide-cards-brand"
+                        style={{
+                            left: `-${countSlide * 251}px`,
+                            width: `calc(251px * 10)`
+                        }}
+                    >
+                        {
+                            Array.from(Array(10), (item, key) => (
+                                <article key={key}>
+                                    <img src="assets/Logo.svg" alt="Marcas" />
+                                </article>
+                            )
+                        )}
+                    </div>
                 </div>
             </div>
         </section>

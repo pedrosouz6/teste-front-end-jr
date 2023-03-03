@@ -1,10 +1,79 @@
 @import './varibles.scss';
 
 #brand {
-    margin-top: 115px;
-    
+    margin-top: 155px;
+    width: 100%;
+
+    position: relative;
+
     h2 {
-        text-align: center;
+        font-weight: 700;
         color: $primaryColor;
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .slide-cards-buttons-brand {
+        button {
+            background: white;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            border: none;
+            cursor: pointer;
+            z-index: 2;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 12px;
+                height: 20px;
+            }
+        }
+        
+        .left {
+            left: 50px;
+        }
+
+        .right {
+            right: 50px;
+        }
+    }
+
+    .container-slide-brand {
+        overflow: hidden;
+        width: calc(100%);
+        position: relative;
+    }
+
+    .container-slide-cards-brand {
+        display: flex;
+        position: relative;
+        gap: 40px;
+        padding: 5px;
+
+        transition: .3s ease-in-out;
+
+        article {
+            width: 211px;
+            height: 211px;
+            box-shadow: 0 0 6px rgba(0, 0, 0, .2);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 172px;
+                height: 62px;
+            }
+        }
     }
 }
