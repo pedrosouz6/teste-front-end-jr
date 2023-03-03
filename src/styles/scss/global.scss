@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@import './header.scss';
+@import './banner.scss';
+@import './topics.scss';
+@import './title.scss';
+@import './relatedProducts.scss';
+@import './cards.scss';
+@import './partners.scss';
+@import './seeAll.scss';
+@import './products.scss';
+@import './brand.scss';
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Poppins, sans-serif;
+}
+
+.container-center {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 85px;
+}

@@ -1,0 +1,13 @@
+$primaryColor: rgba(247, 25, 99, 1);
+$gray: rgba(159, 159, 159, 1);
+$white: white;
+$borderColor: rgba(240, 240, 240, 1);
+$inputColor: rgba(246, 245, 242, 1);
+
+:export {
+    gray: $gray;
+    white: $white;
+    primaryColor: $primaryColor;
+    borderColor: $borderColor;
+    inputColor: $inputColor
+}

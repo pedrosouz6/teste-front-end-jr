@@ -1,0 +1,17 @@
+:export {
+  gray: rgb(159, 159, 159);
+  white: white;
+  primaryColor: rgb(247, 25, 99);
+  borderColor: rgb(240, 240, 240);
+  inputColor: rgb(246, 245, 242);
+}
+
+#brand {
+  margin-top: 115px;
+}
+#brand h2 {
+  text-align: center;
+  color: rgb(247, 25, 99);
+}
+
+/*# sourceMappingURL=brand.css.map */

@@ -1,0 +1,49 @@
+:export {
+  gray: rgb(159, 159, 159);
+  white: white;
+  primaryColor: rgb(247, 25, 99);
+  borderColor: rgb(240, 240, 240);
+  inputColor: rgb(246, 245, 242);
+}
+
+#topics .container-topics {
+  height: auto;
+  margin-top: 30px;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#topics .container-topics button {
+  background: none;
+  border: none;
+  display: flex;
+  gap: 22px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+#topics .container-topics button span {
+  color: rgb(247, 25, 99);
+}
+#topics .container-topics button:hover {
+  color: rgb(247, 25, 99);
+}
+#topics .container-topics button i {
+  background-color: #F4F4F4;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  border: none;
+  width: 128px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 61px;
+  height: 128px;
+}
+
+/*# sourceMappingURL=topics.css.map */

@@ -1,0 +1,108 @@
+@import './varibles.scss';
+
+.cards-items {
+    margin-top: 20px;
+    width: 100%;
+
+    position: relative;
+
+    .slide-cards-buttons {
+        button {
+            background: none;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            border: none;
+            cursor: pointer;
+        }
+        
+        .left {
+            left: -35px;
+        }
+
+        .right {
+            right: -35px;
+        }
+    }
+
+    .container-slide {
+        overflow: hidden;
+        width: calc(100%);
+    }
+
+    .container-slide-cards {
+        display: flex;
+        position: relative;
+        gap: 60px;
+        padding: 5px;
+
+        transition: .3s ease-in-out;
+
+        article {
+            width: 270px;
+            box-shadow: 0 0 6px rgba(0, 0, 0, .2);
+            height: 500px;
+            padding: 32px 11px 16px 11px;
+            border-radius: 10px;
+
+            img {
+                width: 247px;
+                height: 228px;
+                margin-bottom: 19px;
+            }
+
+            p {
+                color: rgba(63, 63, 64, 1);
+                font-size: 15px;
+            }
+
+            .fake-price {
+                color: rgba(128, 128, 128, 1);
+                font-size: 16px;
+                text-decoration: line-through;
+                display: block;
+                margin: 12px 0 2px 0;
+            }
+
+            .price {
+                font-size: 20px;
+                color: rgba(63, 63, 64, 1);
+                font-weight: 700;
+            }
+
+            .split-price {
+                display: block;
+                font-size: 12px;
+                margin-top: 2px;
+            }
+
+            .freight {
+                color: $primaryColor;
+                display: block;
+                font-size: 12px;
+                margin: 7px 0 12px 0;
+            }
+
+            button {
+                background-color: $primaryColor;
+                height: 44px;
+                width: 100%;
+                border: none;
+                border-radius: 4px;
+                color: white;
+                font-size: 14px;
+                font-weight: 700;
+
+                transition: .3s ease-in-out;
+                cursor: pointer;
+
+                &:hover {
+                    opacity: .8;
+                }
+            }
+        }
+    }
+    
+    
+
+}

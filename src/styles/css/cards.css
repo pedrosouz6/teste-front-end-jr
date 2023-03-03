@@ -1,0 +1,94 @@
+:export {
+  gray: rgb(159, 159, 159);
+  white: white;
+  primaryColor: rgb(247, 25, 99);
+  borderColor: rgb(240, 240, 240);
+  inputColor: rgb(246, 245, 242);
+}
+
+.cards-items {
+  margin-top: 20px;
+  width: 100%;
+  position: relative;
+}
+.cards-items .slide-cards-buttons button {
+  background: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  cursor: pointer;
+}
+.cards-items .slide-cards-buttons .left {
+  left: -35px;
+}
+.cards-items .slide-cards-buttons .right {
+  right: -35px;
+}
+.cards-items .container-slide {
+  overflow: hidden;
+  width: 100%;
+}
+.cards-items .container-slide-cards {
+  display: flex;
+  position: relative;
+  gap: 60px;
+  padding: 5px;
+  transition: 0.3s ease-in-out;
+}
+.cards-items .container-slide-cards article {
+  width: 270px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  height: 500px;
+  padding: 32px 11px 16px 11px;
+  border-radius: 10px;
+}
+.cards-items .container-slide-cards article img {
+  width: 247px;
+  height: 228px;
+  margin-bottom: 19px;
+}
+.cards-items .container-slide-cards article p {
+  color: rgb(63, 63, 64);
+  font-size: 15px;
+}
+.cards-items .container-slide-cards article .fake-price {
+  color: rgb(128, 128, 128);
+  font-size: 16px;
+  text-decoration: line-through;
+  display: block;
+  margin: 12px 0 2px 0;
+}
+.cards-items .container-slide-cards article .price {
+  font-size: 20px;
+  color: rgb(63, 63, 64);
+  font-weight: 700;
+}
+.cards-items .container-slide-cards article .split-price {
+  display: block;
+  font-size: 12px;
+  margin-top: 2px;
+}
+.cards-items .container-slide-cards article .freight {
+  color: rgb(247, 25, 99);
+  display: block;
+  font-size: 12px;
+  margin: 7px 0 12px 0;
+}
+.cards-items .container-slide-cards article button {
+  background-color: rgb(247, 25, 99);
+  height: 44px;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.cards-items .container-slide-cards article button:hover {
+  opacity: 0.8;
+}
+
+/*# sourceMappingURL=cards.css.map */

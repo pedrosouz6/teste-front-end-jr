@@ -1,0 +1,55 @@
+:export {
+  gray: rgb(159, 159, 159);
+  white: white;
+  primaryColor: rgb(247, 25, 99);
+  borderColor: rgb(240, 240, 240);
+  inputColor: rgb(246, 245, 242);
+}
+
+#products {
+  margin-top: 71px;
+}
+#products .container-products {
+  width: 100%;
+  display: flex;
+  gap: 105px;
+  justify-content: space-between;
+}
+#products .container-products article {
+  width: 100%;
+  height: 284px;
+  background-image: url("/public/assets/Partners.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  position: relative;
+  padding: 40px;
+}
+#products .container-products article .content-products {
+  position: absolute;
+  top: 21%;
+}
+#products .container-products article .content-products h4 {
+  font-weight: 700;
+  color: white;
+  font-size: 40px;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+#products .container-products article .content-products p {
+  font-size: 16px;
+  color: white;
+  margin: 8px 0 32px 0;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+#products .container-products article .content-products button {
+  width: 131px;
+  height: 48px;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 10px;
+  background-color: rgb(247, 25, 99);
+  color: white;
+  border: none;
+}
+
+/*# sourceMappingURL=products.css.map */

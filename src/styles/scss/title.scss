@@ -1,0 +1,38 @@
+#title {
+    margin-top: 40px;
+    text-align: center;
+    position: relative;
+    font-size: 30px;
+    color: $primaryColor;
+
+    &::before {
+        content: '';
+        display: block;
+        background-color: #DEDEDE;
+        max-width: 360px;
+        min-width: 100px;
+        width: 100%;
+        height: 1px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+
+        left: 5%;
+    }
+
+    &::after {
+        content: '';
+        display: block;
+        background-color: #DEDEDE;
+        max-width: 360px;
+        min-width: 100px;
+        width: 100%;
+        height: 1px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+
+        right: 5%;
+
+    }
+}

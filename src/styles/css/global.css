@@ -1,0 +1,545 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+:export {
+  gray: rgb(159, 159, 159);
+  white: white;
+  primaryColor: rgb(247, 25, 99);
+  borderColor: rgb(240, 240, 240);
+  inputColor: rgb(246, 245, 242);
+}
+
+header .container-header-top {
+  height: 32px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(240, 240, 240);
+}
+header .container-header-top ul {
+  width: 100%;
+  display: flex;
+  gap: 142px;
+  align-items: center;
+  justify-content: center;
+}
+header .container-header-top ul li {
+  font-size: 12px;
+  font-weight: 600;
+  list-style: none;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  color: rgb(159, 159, 159);
+}
+header .container-header-top ul li i {
+  display: block;
+  margin-top: 3px;
+  margin-right: 10px;
+}
+header .container-header-top ul li span {
+  padding: 0 3px;
+  color: rgb(247, 25, 99);
+}
+header .container-header-center {
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom: 1px solid rgb(240, 240, 240);
+}
+header .container-header-center .container-header-left-content img {
+  width: 139px;
+  height: 50px;
+}
+header .container-header-center .container-header-center-content {
+  width: 656px;
+  height: 48px;
+  position: relative;
+}
+header .container-header-center .container-header-center-content input {
+  width: 100%;
+  height: 100%;
+  padding: 13px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(246, 245, 242);
+  color: rgb(159, 159, 159);
+  font-size: 14px;
+  font-weight: 500;
+}
+header .container-header-center .container-header-center-content i {
+  display: block;
+  font-size: 28px;
+  position: absolute;
+  right: 13px;
+  top: 50%;
+  transform: translateY(-42%);
+}
+header .container-header-center .container-header-right-content {
+  display: flex;
+  gap: 35px;
+}
+header .container-header-center .container-header-right-content button {
+  border: none;
+  background: none;
+}
+header .container-header-center .container-header-right-content button i {
+  display: block;
+  font-size: 24px;
+}
+header .container-header-bottom {
+  height: 40px;
+  width: 100%;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+header .container-header-bottom nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .container-header-bottom nav ul li {
+  width: 100%;
+}
+header .container-header-bottom nav ul li button {
+  width: 100%;
+  height: 40px;
+  background: none;
+  color: rgb(159, 159, 159);
+  font-size: 12px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s ease-in-out;
+}
+header .container-header-bottom nav ul li button:hover {
+  color: rgb(247, 25, 99);
+}
+header .container-header-bottom nav ul li button span {
+  color: rgb(247, 25, 99);
+}
+header .container-header-bottom nav ul li button i {
+  display: block;
+  margin-top: 5px;
+}
+
+:export {
+  gray: rgb(159, 159, 159);
+  white: white;
+  primaryColor: rgb(247, 25, 99);
+  borderColor: rgb(240, 240, 240);
+  inputColor: rgb(246, 245, 242);
+}
+
+#banner {
+  width: 100%;
+  height: 395px;
+  background-image: url("/public/assets/Banner.png");
+  background-size: cover;
+}
+#banner .container-banner h1 {
+  position: absolute;
+  width: 822px;
+  height: 128px;
+  left: 89px;
+  top: 196px;
+  font-size: 48px;
+  font-weight: 600;
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+#banner .container-banner h2 {
+  position: absolute;
+  width: 389px;
+  height: 54px;
+  left: 86px;
+  top: 340px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  color: white;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+}
+#banner .container-banner button {
+  position: absolute;
+  width: 227px;
+  height: 60px;
+  left: 87px;
+  top: 429px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  border: none;
+  font-size: 18px;
+  color: white;
+  /* rosa primario */
+  background: rgb(247, 25, 99);
+  border-radius: 5px;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
+}
+#banner .container-banner button:hover {
+  opacity: 0.9;
+}
+
+:export {
+  gray: rgb(159, 159, 159);
+  white: white;
+  primaryColor: rgb(247, 25, 99);
+  borderColor: rgb(240, 240, 240);
+  inputColor: rgb(246, 245, 242);
+}
+
+#topics .container-topics {
+  height: auto;
+  margin-top: 30px;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#topics .container-topics button {
+  background: none;
+  border: none;
+  display: flex;
+  gap: 22px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+#topics .container-topics button span {
+  color: rgb(247, 25, 99);
+}
+#topics .container-topics button:hover {
+  color: rgb(247, 25, 99);
+}
+#topics .container-topics button i {
+  background-color: #F4F4F4;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  border: none;
+  width: 128px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 61px;
+  height: 128px;
+}
+
+#title {
+  margin-top: 40px;
+  text-align: center;
+  position: relative;
+  font-size: 30px;
+  color: rgb(247, 25, 99);
+}
+#title::before {
+  content: "";
+  display: block;
+  background-color: #DEDEDE;
+  max-width: 360px;
+  min-width: 100px;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 5%;
+}
+#title::after {
+  content: "";
+  display: block;
+  background-color: #DEDEDE;
+  max-width: 360px;
+  min-width: 100px;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 5%;
+}
+
+:export {
+  gray: rgb(159, 159, 159);
+  white: white;
+  primaryColor: rgb(247, 25, 99);
+  borderColor: rgb(240, 240, 240);
+  inputColor: rgb(246, 245, 242);
+}
+
+#related-products .container-product-options {
+  margin-top: 3px;
+}
+#related-products .container-product-options ul {
+  list-style: none;
+  display: flex;
+}
+#related-products .container-product-options ul li {
+  width: 100%;
+}
+#related-products .container-product-options ul li button {
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  border: 1px solid rgb(240, 240, 240);
+  background: none;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+#related-products .container-product-options ul li button:hover {
+  font-weight: 700;
+  color: rgb(247, 25, 99);
+}
+#related-products .container-product-options ul li button span {
+  font-weight: 700;
+  color: rgb(247, 25, 99);
+}
+
+:export {
+  gray: rgb(159, 159, 159);
+  white: white;
+  primaryColor: rgb(247, 25, 99);
+  borderColor: rgb(240, 240, 240);
+  inputColor: rgb(246, 245, 242);
+}
+
+.cards-items {
+  margin-top: 20px;
+  width: 100%;
+  position: relative;
+}
+.cards-items .slide-cards-buttons button {
+  background: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  cursor: pointer;
+}
+.cards-items .slide-cards-buttons .left {
+  left: -35px;
+}
+.cards-items .slide-cards-buttons .right {
+  right: -35px;
+}
+.cards-items .container-slide {
+  overflow: hidden;
+  width: 100%;
+}
+.cards-items .container-slide-cards {
+  display: flex;
+  position: relative;
+  gap: 60px;
+  padding: 5px;
+  transition: 0.3s ease-in-out;
+}
+.cards-items .container-slide-cards article {
+  width: 270px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  height: 500px;
+  padding: 32px 11px 16px 11px;
+  border-radius: 10px;
+}
+.cards-items .container-slide-cards article img {
+  width: 247px;
+  height: 228px;
+  margin-bottom: 19px;
+}
+.cards-items .container-slide-cards article p {
+  color: rgb(63, 63, 64);
+  font-size: 15px;
+}
+.cards-items .container-slide-cards article .fake-price {
+  color: rgb(128, 128, 128);
+  font-size: 16px;
+  text-decoration: line-through;
+  display: block;
+  margin: 12px 0 2px 0;
+}
+.cards-items .container-slide-cards article .price {
+  font-size: 20px;
+  color: rgb(63, 63, 64);
+  font-weight: 700;
+}
+.cards-items .container-slide-cards article .split-price {
+  display: block;
+  font-size: 12px;
+  margin-top: 2px;
+}
+.cards-items .container-slide-cards article .freight {
+  color: rgb(247, 25, 99);
+  display: block;
+  font-size: 12px;
+  margin: 7px 0 12px 0;
+}
+.cards-items .container-slide-cards article button {
+  background-color: rgb(247, 25, 99);
+  height: 44px;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.cards-items .container-slide-cards article button:hover {
+  opacity: 0.8;
+}
+
+:export {
+  gray: rgb(159, 159, 159);
+  white: white;
+  primaryColor: rgb(247, 25, 99);
+  borderColor: rgb(240, 240, 240);
+  inputColor: rgb(246, 245, 242);
+}
+
+#partners {
+  margin-top: 71px;
+}
+#partners .container-partners {
+  width: 100%;
+  display: flex;
+  gap: 105px;
+  justify-content: space-between;
+}
+#partners .container-partners article {
+  width: 100%;
+  height: 350px;
+  background-image: url("/public/assets/Partners.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  position: relative;
+  padding: 40px;
+}
+#partners .container-partners article .content-partners {
+  position: absolute;
+  top: 33%;
+}
+#partners .container-partners article .content-partners h4 {
+  font-weight: 700;
+  color: white;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  font-size: 40px;
+}
+#partners .container-partners article .content-partners p {
+  font-size: 16px;
+  color: white;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  margin: 8px 0 32px 0;
+}
+#partners .container-partners article .content-partners button {
+  width: 131px;
+  height: 48px;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 10px;
+  background-color: rgb(247, 25, 99);
+  color: white;
+  border: none;
+}
+
+#see-all {
+  margin-top: 61px;
+}
+#see-all #text-see-all {
+  margin: 4px 0 32px 0;
+  color: black;
+  font-weight: 700;
+  display: block;
+  text-align: center;
+}
+
+:export {
+  gray: rgb(159, 159, 159);
+  white: white;
+  primaryColor: rgb(247, 25, 99);
+  borderColor: rgb(240, 240, 240);
+  inputColor: rgb(246, 245, 242);
+}
+
+#products {
+  margin-top: 71px;
+}
+#products .container-products {
+  width: 100%;
+  display: flex;
+  gap: 105px;
+  justify-content: space-between;
+}
+#products .container-products article {
+  width: 100%;
+  height: 284px;
+  background-image: url("/public/assets/Partners.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  position: relative;
+  padding: 40px;
+}
+#products .container-products article .content-products {
+  position: absolute;
+  top: 21%;
+}
+#products .container-products article .content-products h4 {
+  font-weight: 700;
+  color: white;
+  font-size: 40px;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+#products .container-products article .content-products p {
+  font-size: 16px;
+  color: white;
+  margin: 8px 0 32px 0;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+#products .container-products article .content-products button {
+  width: 131px;
+  height: 48px;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 10px;
+  background-color: rgb(247, 25, 99);
+  color: white;
+  border: none;
+}
+
+:export {
+  gray: rgb(159, 159, 159);
+  white: white;
+  primaryColor: rgb(247, 25, 99);
+  borderColor: rgb(240, 240, 240);
+  inputColor: rgb(246, 245, 242);
+}
+
+#brand {
+  margin-top: 115px;
+}
+#brand h2 {
+  text-align: center;
+  color: rgb(247, 25, 99);
+}
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Poppins, sans-serif;
+}
+
+.container-center {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 85px;
+}
+
+/*# sourceMappingURL=global.css.map */
