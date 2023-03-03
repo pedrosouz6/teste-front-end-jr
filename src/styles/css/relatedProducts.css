@@ -13,9 +13,10 @@
 #related-products .container-product-options ul {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
 }
 #related-products .container-product-options ul li {
-  width: 100%;
+  width: 210px;
 }
 #related-products .container-product-options ul li button {
   width: 100%;

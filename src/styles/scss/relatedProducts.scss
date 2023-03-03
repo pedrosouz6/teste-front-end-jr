@@ -7,9 +7,10 @@
         ul {
             list-style: none;
             display: flex;
+            flex-wrap: wrap;
 
             li {
-                width: 100%;
+                width: 210px;
 
                 button {
                     width: 100%;

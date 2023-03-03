@@ -1,4 +1,15 @@
+import { useState } from 'react';
+
+import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
+
 export function Header() {
+
+    const [ isMenuResponsive, setIsMenuResponsive ] = useState<boolean>(false);
+
+    function ToggleMenuResponsive() {
+        setIsMenuResponsive(!isMenuResponsive);
+    }
+
     return (
         <header>
             <div className="container-center">
@@ -29,10 +40,57 @@ export function Header() {
                             <i><img src="assets/IconSearch.svg" alt="Ícone de busca" /></i>
                         </div>
                         <div className="container-header-right-content">
-                            <button><i><img src="assets/Box.svg" alt="Ícone Caixa" /></i></button>
-                            <button><i><img src="assets/Heart.svg" alt="Ícone Coração" /></i></button>
-                            <button><i><img src="assets/UserCircle.svg" alt="Ícone Usuário" /></i></button>
-                            <button><i><img src="assets/ShoppingCart.svg" alt="Ícone Carrinho" /></i></button>
+                            <div className="buttons-right-content">
+                                <button><i><img src="assets/Box.svg" alt="Ícone Caixa" /></i></button>
+                                <button><i><img src="assets/Heart.svg" alt="Ícone Coração" /></i></button>
+                                <button><i><img src="assets/UserCircle.svg" alt="Ícone Usuário" /></i></button>
+                                <button><i><img src="assets/ShoppingCart.svg" alt="Ícone Carrinho" /></i></button>
+                            </div>
+                            
+                            <div className="container-header-responsive">
+                                <button onClick={
+                                    () => ToggleMenuResponsive()}
+                                >
+                                    <i><AiOutlineMenu /></i>
+                                </button>
+
+                                <div 
+                                    className={
+                                        isMenuResponsive ? 
+                                        "menu-responsive active" : 
+                                        "menu-responsive"
+                                    }
+                                >
+
+                                    <button 
+                                        onClick={() => ToggleMenuResponsive()} 
+                                        id="close-menu"
+                                    >
+                                        <i><AiOutlineClose /></i>
+                                    </button>
+
+                                    <div className="buttons-right-content-responsive">
+                                        <button><i><img src="assets/Box.svg" alt="Ícone Caixa" /></i></button>
+                                        <button><i><img src="assets/Heart.svg" alt="Ícone Coração" /></i></button>
+                                        <button><i><img src="assets/UserCircle.svg" alt="Ícone Usuário" /></i></button>
+                                        <button><i><img src="assets/ShoppingCart.svg" alt="Ícone Carrinho" /></i></button>
+                                    </div>
+
+                                    <div className="container-header-bottom-responsive">
+                                        <nav>
+                                            <ul>
+                                                <li><button>TODAS CATEGORIAS</button></li>
+                                                <li><button>SUPERMERCADO</button></li>
+                                                <li><button>LIVROS</button></li>
+                                                <li><button>MODA</button></li>
+                                                <li><button>LANÇAMENTOS</button></li>
+                                                <li><button><span>OFERTAS DO DIA</span></button></li>
+                                                <li><button><i><img src="assets/CrownSimple.svg" alt="Ícone Coroa" /></i> ASSINATURA</button></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
