@@ -231,6 +231,14 @@ header .container-header-bottom nav ul li button i {
   height: 128px;
 }
 
+:export {
+  gray: rgb(159, 159, 159);
+  white: white;
+  primaryColor: rgb(247, 25, 99);
+  borderColor: rgb(240, 240, 240);
+  inputColor: rgb(246, 245, 242);
+}
+
 #title {
   margin-top: 40px;
   text-align: center;
