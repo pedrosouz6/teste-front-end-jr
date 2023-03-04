@@ -100,6 +100,8 @@ footer .container-footer-bottom img {
 }
 footer .container-footer-bottom .logos-footer {
   display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 /*# sourceMappingURL=footer.css.map */

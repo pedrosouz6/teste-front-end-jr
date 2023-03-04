@@ -1,8 +1,9 @@
 @import './varibles.scss';
 
 #newsletter {
-    width: 380px;
-    height: 260px;
+    max-width: 380px;
+    min-height: 260px;
+    max-height: auto;
     border-radius: 10px;
 
     padding: 35px;
@@ -28,11 +29,17 @@
     }
 
     form {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 9px;
+
         input {
+            flex: 1 1 170px;
+            width: 100%;
+            max-width: 230px;
             border: 1px solid rgba(42, 42, 42, 1);
             border-radius: 4px;
             height: 45px;
-            width: 230px;
             padding: 0 25px;
         }
 
@@ -44,7 +51,6 @@
             border: none;
 
             border-radius: 4px;
-            margin-left: 9px;
         }
     }
 }
