@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Modal } from '../Modal';
 
 interface AnswerData {
     success: boolean,
@@ -10,9 +11,17 @@ interface AnswerData {
     }[]
 }
 
+export interface ModalProps {
+    productName: string,
+    photo: string,
+    price: number,
+    descriptionShort: string
+}
+
 export function Cards() {
 
     const [ data, setData ] = useState<AnswerData | null>(null);
+    const [ dataModal, setDataModal ] = useState<ModalProps| null>(null);
 
     const [ countSlide, setCountSlide ] = useState<number>(0);
 
@@ -33,6 +42,14 @@ export function Cards() {
 
         setCountSlide(countSlide - 1);
     }
+
+    function OpenModal(item: ModalProps) {
+        setDataModal(item);
+    }
+
+    function CloseModal() {
+        setDataModal(null)
+    }
     
     useEffect(() => {
         async function getDatas() {
@@ -47,6 +64,8 @@ export function Cards() {
 
     return (
         <section className='cards-items'>
+
+                { dataModal && <Modal dataModal={dataModal} CloseModal={CloseModal} /> }
 
             <div className="slide-cards-buttons">
                     <button 
@@ -103,7 +122,7 @@ export function Cards() {
 
                                 <span className='freight'>Frete grátis</span>
 
-                                <button>COMPRAR</button>
+                                <button onClick={() => OpenModal(item)}>COMPRAR</button>
                             </article>
                         ))
                     }
