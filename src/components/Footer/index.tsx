@@ -57,7 +57,9 @@ export function Footer() {
                         </div>
                     </article>
 
-                    <Newsletter />
+                    <div className="container-newsletter">
+                        <Newsletter />
+                    </div>
                 </div>
 
             </div>

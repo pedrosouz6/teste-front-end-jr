@@ -13,6 +13,11 @@ header .container-header-top {
   align-items: center;
   border-bottom: 1px solid rgb(240, 240, 240);
 }
+@media (max-width: 920px) {
+  header .container-header-top {
+    display: none;
+  }
+}
 header .container-header-top ul {
   width: 100%;
   display: flex;
@@ -107,6 +112,39 @@ header .container-header-center .container-header-right-content .container-heade
 header .container-header-center .container-header-right-content .container-header-responsive .menu-responsive.active {
   right: 0;
 }
+header .container-header-center .container-header-right-content .container-header-responsive .container-header-top-responsive {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(240, 240, 240);
+}
+header .container-header-center .container-header-right-content .container-header-responsive .container-header-top-responsive ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+header .container-header-center .container-header-right-content .container-header-responsive .container-header-top-responsive ul li {
+  font-size: 12px;
+  font-weight: 600;
+  list-style: none;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  color: rgb(159, 159, 159);
+}
+header .container-header-center .container-header-right-content .container-header-responsive .container-header-top-responsive ul li i {
+  display: block;
+  margin-top: 3px;
+  margin-right: 10px;
+}
+header .container-header-center .container-header-right-content .container-header-responsive .container-header-top-responsive ul li span {
+  padding: 0 3px;
+  color: rgb(247, 25, 99);
+}
 header .container-header-center .container-header-right-content .container-header-responsive #close-menu {
   position: absolute;
   right: 20px;
@@ -119,7 +157,7 @@ header .container-header-center .container-header-right-content .container-heade
   font-size: 13pt;
 }
 header .container-header-center .container-header-right-content .container-header-responsive .buttons-right-content-responsive {
-  margin-top: 70px;
+  margin-top: 10px;
   display: flex;
   justify-content: center;
   gap: 35px;

@@ -14,9 +14,11 @@
   width: 100%;
   display: flex;
   gap: 105px;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 #products .container-products article {
+  flex: 1 1 450px;
   width: 100%;
   height: 284px;
   background-image: url("/public/assets/Partners.png");

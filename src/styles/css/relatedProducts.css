@@ -13,6 +13,7 @@
 #related-products .container-product-options ul {
   list-style: none;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 #related-products .container-product-options ul li {

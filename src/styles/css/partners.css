@@ -13,10 +13,12 @@
 #partners .container-partners {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   gap: 105px;
   justify-content: space-between;
 }
 #partners .container-partners article {
+  flex: 1 1 450px;
   width: 100%;
   height: 350px;
   background-image: url("/public/assets/Partners.png");

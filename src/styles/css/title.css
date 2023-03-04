@@ -18,27 +18,33 @@
   content: "";
   display: block;
   background-color: #DEDEDE;
-  max-width: 360px;
-  min-width: 100px;
-  width: 100%;
+  width: 360px;
   height: 1px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  left: 5%;
+  left: 30px;
+}
+@media (max-width: 1260px) {
+  #title::before {
+    display: none;
+  }
 }
 #title::after {
   content: "";
   display: block;
   background-color: #DEDEDE;
-  max-width: 360px;
-  min-width: 100px;
-  width: 100%;
+  width: 360px;
   height: 1px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  right: 5%;
+  right: 30px;
+}
+@media (max-width: 1260px) {
+  #title::after {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=title.css.map */

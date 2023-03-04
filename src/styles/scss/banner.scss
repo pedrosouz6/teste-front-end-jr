@@ -8,40 +8,49 @@
 
     .container-banner {
         h1 {
-            position: absolute;
-            width: 822px;
-            height: 128px;
-            left: 89px;
-            top: 196px;
+            padding-top: 52px;
             font-size: 48px;
             font-weight: 600;
             color: $white;
-            text-shadow: 1px 1px 1px rgba(0, 0, 0, .4);
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+            max-width: 800px;
 
+            @media (max-width: 550px) {
+                font-size: 34px;
+            }
+
+            @media (max-width: 370px) {
+                font-size: 26px;
+            }
         }
 
         h2 {
-            position: absolute;
-            width: 389px;
-            height: 54px;
-            left: 86px;
-            top: 340px;
-            text-shadow: 1px 1px 1px rgba(0, 0, 0, .4);
-
+            margin-top: 16px;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, .6   );
             color: $white;
             font-weight: 600;
             font-size: 36px;
-            line-height: 54px;
+
+            @media (max-width: 550px) {
+                font-size: 26px;
+            }
+
+            @media (max-width: 370px) {
+                font-size: 20px;
+            }
         }
 
         button {
-            position: absolute;
+            @media (max-width: 550px) {
+                width: 200px;
+                height: 55px;
+            }
+
             width: 227px;
             height: 60px;
-            left: 87px;
-            top: 429px;
             text-shadow: 1px 1px 1px rgba(0, 0, 0, .4);
 
+            margin-top: 35px;
             cursor: pointer;
             border: none;
             font-size: 18px;

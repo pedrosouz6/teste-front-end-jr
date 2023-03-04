@@ -10,7 +10,8 @@
 footer {
   margin-top: 169px;
   background-color: #2A2A2A;
-  height: 325px;
+  min-height: 325px;
+  max-height: auto;
 }
 footer li {
   color: white;
@@ -26,15 +27,27 @@ footer h5 {
   font-size: 13px;
 }
 footer .container-footer {
+  padding: 33px 0;
   width: 100%;
-  height: 325px;
+  height: 100%;
   display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
 footer #content-info {
+  flex: 1 1;
+  max-width: 100%;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 80px;
+}
+footer .container-newsletter {
+  flex: 0 0 380px;
+  max-width: 100%;
+  margin: 0 auto;
 }
 footer .about-us nav {
   display: flex;
@@ -70,9 +83,12 @@ footer .container-footer-bottom {
 }
 footer .container-footer-bottom .container-bottom {
   display: flex;
+  gap: 20px;
   align-items: center;
   justify-content: space-between;
-  height: 70px;
+  min-height: 70px;
+  max-height: auto;
+  padding: 5px 0;
 }
 footer .container-footer-bottom p {
   font-size: 10px;
@@ -81,6 +97,9 @@ footer .container-footer-bottom p {
 }
 footer .container-footer-bottom img {
   margin-left: 32px;
+}
+footer .container-footer-bottom .logos-footer {
+  display: flex;
 }
 
 /*# sourceMappingURL=footer.css.map */
