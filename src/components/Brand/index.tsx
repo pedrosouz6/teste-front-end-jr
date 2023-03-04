@@ -47,8 +47,8 @@ export function Brand() {
                     </div>
                     <div className="container-slide-cards-brand"
                         style={{
-                            left: `-${countSlide * 251}px`,
-                            width: `calc(251px * 10)`
+                            left: `-${countSlide * 261}px`,
+                            width: `calc(261px * 10)`
                         }}
                     >
                         {

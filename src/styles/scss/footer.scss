@@ -35,10 +35,11 @@ footer {
 
     #content-info {
         flex: 1 1;
+        
         max-width: 100%;
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: start;
         gap: 80px;
     }
 

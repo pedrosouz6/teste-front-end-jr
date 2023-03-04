@@ -268,7 +268,7 @@ header .container-header-center .container-header-right-content .buttons-right-c
 header .container-header-bottom {
   height: 40px;
   width: 100%;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
 }
 @media (max-width: 1180px) {
   header .container-header-bottom {
@@ -796,7 +796,7 @@ header .container-header-bottom nav ul li button i {
 #brand .container-slide-cards-brand {
   display: flex;
   position: relative;
-  gap: 40px;
+  gap: 50px;
   padding: 5px;
   transition: 0.3s ease-in-out;
 }
@@ -857,7 +857,7 @@ footer #content-info {
   max-width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: start;
   gap: 80px;
 }
 footer .container-newsletter {

@@ -33,7 +33,7 @@ export function Modal({ dataModal, CloseModal }: Modal) {
                 </div>
             </article>
 
-            <div id="background-modal"></div>
+            <div id="background-modal" onClick={() => CloseModal()}></div>
         </section>
     )
 }

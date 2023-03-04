@@ -266,7 +266,7 @@ header .container-header-center .container-header-right-content .buttons-right-c
 header .container-header-bottom {
   height: 40px;
   width: 100%;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
 }
 @media (max-width: 1180px) {
   header .container-header-bottom {
