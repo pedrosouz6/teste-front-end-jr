@@ -23,6 +23,11 @@ export function HeaderResponsive({ ToggleMenuResponsive, isMenuResponsive }: Hea
                 <i><AiOutlineClose /></i>
             </button>
 
+            <div className="container-header-center-content-responsive">
+                <input type="text" placeholder="O que você está buscando?" />
+                <i><img src="assets/IconSearch.svg" alt="Ícone de busca" /></i>
+            </div>
+
             <div className="container-header-top-responsive">
                 <ul>
                     <li>

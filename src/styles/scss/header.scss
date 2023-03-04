@@ -47,6 +47,10 @@ header {
     }
 
     .container-header-center {
+        @media (max-width: 1180px) {
+            justify-content: space-between;
+        }
+
         height: 72px;
 
         display: flex;
@@ -64,6 +68,10 @@ header {
 
 
         .container-header-center-content {
+            @media (max-width: 800px) {
+                display: none;
+            }
+
             width: 656px;
             height: 48px;
 
@@ -127,10 +135,40 @@ header {
                     right: 0;
                 }
 
+                .container-header-center-content-responsive {
+                    margin-top: 50px;
+                    width: 100%;
+                    height: 48px;
+        
+                    position: relative;
+        
+                    input {
+                        width: 100%;
+                        height: 100%;
+                        padding: 13px;
+                        border-radius: 10px;
+                        border: none;
+                        background-color: $inputColor;
+                        color: $gray;
+                        font-size: 14px;
+                        font-weight: 500;
+                    }
+        
+                    i {
+                        display: block;
+                        font-size: 28px;
+                        position: absolute;
+                        right: 13px;
+                        top: 50%;
+                        transform: translateY(-42%);
+                    }
+                }
+        
+
                 .container-header-top-responsive {
                     display: flex;
                     align-items: center;
-                    margin-top: 30px;
+                    margin-top: 20px;
 
                     padding-bottom: 10px;
             

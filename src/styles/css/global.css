@@ -53,6 +53,11 @@ header .container-header-center {
   justify-content: space-evenly;
   border-bottom: 1px solid rgb(240, 240, 240);
 }
+@media (max-width: 1180px) {
+  header .container-header-center {
+    justify-content: space-between;
+  }
+}
 header .container-header-center .container-header-left-content img {
   width: 139px;
   height: 50px;
@@ -61,6 +66,11 @@ header .container-header-center .container-header-center-content {
   width: 656px;
   height: 48px;
   position: relative;
+}
+@media (max-width: 800px) {
+  header .container-header-center .container-header-center-content {
+    display: none;
+  }
 }
 header .container-header-center .container-header-center-content input {
   width: 100%;
@@ -114,10 +124,35 @@ header .container-header-center .container-header-right-content .container-heade
 header .container-header-center .container-header-right-content .container-header-responsive .menu-responsive.active {
   right: 0;
 }
+header .container-header-center .container-header-right-content .container-header-responsive .container-header-center-content-responsive {
+  margin-top: 50px;
+  width: 100%;
+  height: 48px;
+  position: relative;
+}
+header .container-header-center .container-header-right-content .container-header-responsive .container-header-center-content-responsive input {
+  width: 100%;
+  height: 100%;
+  padding: 13px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(246, 245, 242);
+  color: rgb(159, 159, 159);
+  font-size: 14px;
+  font-weight: 500;
+}
+header .container-header-center .container-header-right-content .container-header-responsive .container-header-center-content-responsive i {
+  display: block;
+  font-size: 28px;
+  position: absolute;
+  right: 13px;
+  top: 50%;
+  transform: translateY(-42%);
+}
 header .container-header-center .container-header-right-content .container-header-responsive .container-header-top-responsive {
   display: flex;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 20px;
   padding-bottom: 10px;
   border-bottom: 1px solid rgb(240, 240, 240);
 }
