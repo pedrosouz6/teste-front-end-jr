@@ -1,6 +1,8 @@
 ## Teste Econverse: Vaga Desenvolvedor Front-End Jr
 
-### Publiquei o projeto na Vercel, click no link abaixo para vizualizar.
+### Como finalizei o teste antes do prazo, deixei o site responsivo, um ponto essencial para o desenvolvimento Front-end.
+
+#### Publiquei o projeto na Vercel, clique no link abaixo para visualizar.
 
 <a href='https://pedrosouza-teste-front-end-jr.vercel.app/'> Ver o projeto </a>
 
@@ -48,5 +50,5 @@
 
 ##
 
-#### Se estiver com alguma dúvida sobre como rodar o projeto. Por favor, entre em contato comigo para solucionarmos esse problema.
+#### Se estiver com alguma dúvida sobre o projeto. Por favor, entre em contato comigo para solucionarmos esse problema.
 #### Meu número: (11) 95883-2414
