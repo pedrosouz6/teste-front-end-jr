@@ -47,8 +47,3 @@
 <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="Sass" />
 
 </div>
-
-##
-
-#### Se estiver com alguma dúvida sobre o projeto. Por favor, entre em contato comigo para solucionarmos esse problema.
-#### Meu número: (11) 95883-2414
